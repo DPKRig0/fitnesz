@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Dépéká Fitnesz Klub</title>
+</head>
+<body>
+    <div id="oldal">
+        <div id="fejlec">
+            <h1>Dépéká Fitnesz Klub</h1>
+            <h2>Mottó: Gyere Gyakran Enni ;-)</h2>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="szolg.html">Szolgáltatások</a></li>
+                <li><a href="kapcs.html" class="kivalasztott">Kapcsolat</a></li>
+            </ul>
+        </div>
+        <div id="tartalom">
+            <h1 class="kozep">Kapcsolat</h1>
+            <form>
+                <p class="bal">Ha kérdése van, írjon nekünk!</p>
+                    <p class="bal">Név<br>
+                    <input type="text" size="120"></p>
+                    <p class="bal">Melyik szolgáltatásunk keltette fel az érdeklődését?<br>
+                    <input type="radio" name="szolg" value="konditerem" id="konditerem" ><label for="konditerem"> Konditerem</label><br>
+                    <input type="radio" name="szolg" value="uszoda" id="uszoda"><label for="uszoda"> Uszoda</label><br>
+                    <input type="radio" name="szolg" value="szauna" id="szauna"><label for="szauna"> Szauna</label></p>
+                    <p class="bal">Üzenet<br>
+                    <input type="uzenet" size="112" class="bal"></p>
+                    <input type="submit" name="kuldes" value="Küldés" class="bal"></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
