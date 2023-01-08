@@ -79,16 +79,7 @@ dd{
     margin-left: 50px;
 }
 table{
-    margin: 10px auto;
     border-collapse: collapse;
-}
-th,td{
-    border: 1px dotted #666;
-}
-th{
-    text-align: center;
-    font-size: 1.1em;
-    font-weight: bold;
 }
 fieldset{
     margin: 0 20px;
@@ -101,5 +92,8 @@ h2{
     text-align: center;
 }
 .bal{
+    margin-left: 50px;
+}
+#bal{
     margin-left: 50px;
 }
